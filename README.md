@@ -1,7 +1,7 @@
 # Neural Network Charity Analysis
 
 ## Project Overview
-In this project I created a binary classifier to predict whether Alphabet Soup's funding to each applicant would be successful or not.  Before creating the model I preprocessed the dataset by removing a couple columns and organizing some of the categorical data into bins.  Then I split the data into training and testing setes and standardized the numerical data.  Finally I compiled and trained the model using a deep neural network, after which I evaluated the model's performance.
+In this project I created a binary classifier to predict whether Alphabet Soup's funding to each applicant would be successful or not.  Before creating the model I preprocessed the dataset by removing a couple columns and organizing some of the categorical data into bins.  Then I split the data into training and testing sets and standardized the numerical data.  Finally I compiled and trained the model using a deep neural network, after which I evaluated the model's performance.
 
 ## Results
 
@@ -11,7 +11,7 @@ In this project I created a binary classifier to predict whether Alphabet Soup's
 - The variables that were not needed in the model were EIN (the identification number) and NAME (the name of the organization).
 
 ### Compilation, Training & Evaluation
-- For my initial model I used two hidden layers and one output layer. The number of neurons for the first hidden layer was 80, due to the large set of training data, and the number for the second layer was 30, in order for the .  I used the relu activation function (better for bigger learning models) for both hidden layers and the sigmoid function for the output layer (since it returns the output as a range between 0 and 1).
+- For my initial model I used two hidden layers and one output layer. The number of neurons for the first hidden layer was 80, due to the large set of training data, and the number for the second layer was 30, in order for a smaller number of neurons to take in the outputs from the previous layer and try to evaluate interactions between the weighted variables to a higher degree.  I used the relu activation function (better for bigger learning models) for both hidden layers and the sigmoid function for the output layer (since it returns the output as a range between 0 and 1).
 
 ![initial model](https://github.com/MaxV6ft4/Neural_Network_Charity_Analysis/blob/main/Screenshots/Initial_model.png)
 
